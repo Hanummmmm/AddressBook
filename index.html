@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Address Book</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="p-6" style="background-color: #FFF8EE; color: #3A5A8A;">
+   
+    <header class="mb-6">
+      <h1 class="text-2xl font-semibold" style="color:#3A5A8A;">Contacts</h1>
+    </header>
+
+  
+    <div class="flex justify-between items-center mb-4">
+    
+      <div class="space-x-2">
+        <button
+          class="px-3 py-1 rounded shadow"
+          style="background-color: #E4ECF7; border: 1px solid #3A5A8A; color:#3A5A8A;"
+        >
+          + New
+        </button>
+
+        <button
+          class="px-3 py-1 rounded shadow"
+          style="background-color: #E4ECF7; border: 1px solid #3A5A8A; color:#3A5A8A;"
+        >
+          Edit
+        </button>
+
+        <button
+          class="px-3 py-1 rounded shadow"
+          style="background-color: #E4ECF7; border: 1px solid #3A5A8A; color:#3A5A8A;"
+        >
+          Delete
+        </button>
+      </div>
+
+      
+      <div class="flex items-center space-x-2">
+        <input
+          type="text"
+          placeholder="Search..."
+          class="px-3 py-1 rounded shadow"
+          style="background-color: white; border: 1px solid #3A5A8A; color:#3A5A8A;"
+        />
+
+        <button
+          class="px-3 py-1 rounded shadow"
+          style="background-color: #E4ECF7; border: 1px solid #3A5A8A; color:#3A5A8A;"
+        >
+          Filter
+        </button>
+      </div>
+    </div>
+
+    <div class="overflow-x-auto">
+      <table
+        class="min-w-full rounded-lg shadow"
+        style="border: 1px solid #3A5A8A; background-color:white; color:#3A5A8A;"
+      >
+        <thead style="background-color: #E4ECF7;">
+          <tr style="border-bottom: 1px solid #3A5A8A;">
+            <th class="p-2 text-left"><input type="checkbox" /></th>
+            <th class="p-2 text-left">Name</th>
+            <th class="p-2 text-left">Phone</th>
+            <th class="p-2 text-left">Email</th>
+            <th class="p-2 text-left">Location</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td
+              colspan="7"
+              class="p-4 text-center italic"
+              style="color:#5A6F8D;"
+            >
+              No contacts available
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="assets/script/script.js"></script>
+  </body>
+</html>
