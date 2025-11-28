@@ -14,7 +14,7 @@ A minimal app designed to help you store and organize contact information effor
 - Search contacts by name or email
 
 ##  💻 Tech Stack
-
+git
 - HTML
 - CSS
 - JavaScript
