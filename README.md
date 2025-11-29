@@ -21,4 +21,4 @@ git
 
 ## 🧩 Flowchart
 
-![preview](./assets/flowchart.png)
+![preview](./assets/image/flowchart.png)
